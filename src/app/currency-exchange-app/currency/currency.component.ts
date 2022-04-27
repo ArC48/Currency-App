@@ -22,7 +22,7 @@ export class CurrencyComponent implements OnInit {
     private http: HttpClient
   ) { }  
 
-    apiKey = '4995da5ba9-9952134688-rb01ff'
+    apiKey = '4995da5ba9-9952134688-rb01ff' // valid for 1 month only (till 5.27.2022)
     from: any = 'USD';
     to: any = 'GEL';
     amount: any = 100;
